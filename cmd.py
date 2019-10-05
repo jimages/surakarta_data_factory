@@ -43,8 +43,8 @@ class Cmd(object):
             if len(chess_list) != 4:
                 print(msg)
                 print("⚠️ 输入错误: 缺少输入参数")
+                exit(-1)
 
-                continue
 
             for i in range(len(chess_list)):
                 chess_list[i] = int(chess_list[i])
